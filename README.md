@@ -1,6 +1,6 @@
 # address-book
 
-## Project setup
+## Project Commands
 ```
 npm install
 ```
@@ -15,10 +15,21 @@ npm run serve
 npm run build
 ```
 
+### Runs Unit Testing
+```
+npm run test:unit
+```
+
 ### Lints and fixes files
 ```
 npm run lint
 ```
+
+## Deployment
+
+## Project Summary
+
+
 
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).

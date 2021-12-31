@@ -1,18 +1,23 @@
 <template>
   <div class="home">
-    <img alt="Vue logo" src="../assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <div class="contact-wrapper" v-for="(contact, index) in contacts" :key="index">
+        <contact-item :contact='contact'/>
+    </div>
   </div>
 </template>
 
 <script>
-// @ is an alias to /src
-import HelloWorld from '@/components/HelloWorld.vue'
-
-export default {
-  name: 'Home',
+import ContactItem from "../components/ContactItem.vue";
+export default ({
+  name: "Home",
   components: {
-    HelloWorld
-  }
-}
+    ContactItem
+  },
+  computed: {
+    contacts() {
+      return this.$store.state.contacts
+    }
+  },
+});
 </script>
+

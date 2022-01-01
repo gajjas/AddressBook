@@ -85,9 +85,6 @@ After I have thought of the deployment process. The best deployment method that 
 - Creating a search box for easier contact retrieval by filtering the list 
   - Could take a couple hours to implement depending on the search complexity `(min 3 hours)`
 
-- Adding Sorted Contact List which allows for faster UX access 
-  - Could take a `min of 1 hour`
-
 - Adding a google map on the `details` page with access to a google maps link 
   - Could take around `2-4 days` to implement since getting the api access and setting up billing, keys, and adding the UI to the page add to the time
 
